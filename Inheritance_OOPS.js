@@ -26,11 +26,11 @@ class Alien extends Enemy {
 }
 
 // child class override the parent class
-const alien1 = new Alien("Ali", "I'm Ali the alien!", 10)
+// const alien1 = new Alien("Ali", "I'm Ali the alien!", 10)
 const alien2 = new Alien("Lien", "Run for your lives!", 15)
 const enemy1 = new Enemy(1000)
 
 // child object is trying to use theparent  function
 alien2.attack() 
 // parent as usual call the method within it 
-// enemy1.attack();
+ enemy1.attack();

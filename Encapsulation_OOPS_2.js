@@ -1,36 +1,11 @@
-class Student  
-  {  
-    constructor()  
-    {  
-       var name;  
-       var marks;  
-    }  
+import Encapsulation_OOPS_3 from "./Encapsulation_OOPS_3";
 
-    // getter and setter values
-        getName()  
-        {  
-          return this.name;  
-        }  
-
-      setName(name)  
-      {  
-        this.name=name +'son';  
-      }  
-        
-      getMarks()  
-      {  
-        return this.marks;  
-      }  
-      
-    setMarks(marks)  
-    {  
-      this.marks=marks;  
-    }  
-  
-    }
+class sample{
       // object creation
-      //var obj = new classname();
-    var stud=new Student();  
-     stud.setName("John");  
-     stud.setMarks(80);  
-     console.log(stud.getName()+" "+stud.getMarks());  
+      // var obj = new classname();
+      Encapsulation_OOPS_3 = new Encapsulation_OOPS_3();  
+      Encapsulation_OOPS_3.setName("John");  
+     //  stud.setMarks(80);  
+      console.log(stEncapsulation_OOPS_3.getName());  
+}
+  
