@@ -2,11 +2,13 @@ class Character {
     constructor (speed) {
         this.speed = speed
     }
+
     move = () => console.log(`I'm moving at the speed of ${this.speed}!`)
 }
 
 class Enemy extends Character {
     constructor(name, phrase, power, speed) {
+        // usage of super -> its akeyword availabe in javascript where it invoked the parameter or variabel directly from the parent 
         super(speed)
         this.name = name
         this.phrase = phrase

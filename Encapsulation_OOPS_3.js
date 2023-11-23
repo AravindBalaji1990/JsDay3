@@ -3,7 +3,7 @@ class Student
     constructor()  
     {  
        var name;  
-      //  var marks;  
+       var marks;  
     }  
 
     // getter and setter values
@@ -29,5 +29,6 @@ class Student
 
   
     }
-
-    //module.exports = new Encapsulation_OOPS_3();
+const data = new Student()
+console.log(data.setName("isha"))
+console.log(data.getName())

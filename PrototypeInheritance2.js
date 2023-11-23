@@ -1,4 +1,3 @@
-
 //Inheriting from Another Object:
 function Animal(name) {
   this.name = name;

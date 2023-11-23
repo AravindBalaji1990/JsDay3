@@ -14,5 +14,6 @@ child.sayHello = function() {
 };
 
 // Accessing methods through inheritance
+// parent.child.greet()
 child.greet();    // Output: Hello from the parent!
 child.sayHello(); // Output: Hi from the child!
