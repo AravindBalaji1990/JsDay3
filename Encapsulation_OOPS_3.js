@@ -1,5 +1,6 @@
-class Student  
-  {  
+class Student  {  
+
+  //default constructor
     constructor()  
     {  
        var name;  
@@ -14,19 +15,9 @@ class Student
 
       setName(name)  
       {  
-        this.name=name +'324583276hdasbf';  
+        this.name=name +'-324583276hdasbf';  
       }  
         
-      getMarks()  
-      {  
-        return this.marks;  
-      }  
-      
-    setMarks(marks)  
-    {  
-      this.marks=marks;  
-    } 
-
   
     }
 const data = new Student()

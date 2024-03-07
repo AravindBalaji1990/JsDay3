@@ -15,6 +15,7 @@ function Dog(name, breed) {
 
 // Inherit from Animal prototype
 //Link the Prototypes
+// assigning a prototype from parent to child
 Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Dog;
 
