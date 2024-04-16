@@ -2,7 +2,7 @@ class Person{
 
     //constructor declaration in javacript
     constructor(name){
-        // _ denotes private
+        // _ represents a private
         this._name =name
     }
 

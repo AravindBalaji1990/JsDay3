@@ -1,17 +1,13 @@
 class Student  {  
-   name ='sample'
-   marks =1000
-  //parameterised constructor
-    constructor(name, marks)  
+  //default constructor
+    constructor()  
     {  
-       this.name = name;  
-       this.marks = marks;  
+         
     }  
     // getter and setter values
         getName()  
         {  
-        // this.name = "insidegetter"
-        return this.name;  
+          return this.name;  
         }  
 
       setName(name)  
@@ -20,8 +16,8 @@ class Student  {
       }  
     }
     //variable declaration for the class
-const data = new Student('sam',100)
-console.log(data.getName()) //
+const data = new Student()
+// console.log(data.getName()) 
 
 data.setName("isha")
 console.log(data.getName())
